@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+.avtorization{
+    width: 30%;
+    height: 300px;
+    border: 1px solid #000;
+    margin: 10% auto;
+    border-radius: 3%;
+}
+.avtorization h1{
+	text-align: center;
+}
+.avtorization p{
+	margin-left: 2%;
+}
+.bloc{
+	margin-left: 2%;
+	width: 95%;
+	border-radius: 3%;
+}
+.bootoms{
+	margin-top: 10%; 
+	margin-left: 35%; 
+	padding: 2% 2%;
+}

@@ -1,0 +1,156 @@
+@charset "utf-8";
+/* CSS Document */
+@import url("reset.css");
+
+html {
+	height: 100%;
+}
+
+body {
+	background:url(../img/fon.jpg);
+	font-family:Arial, Bold, sans-serif;
+	font-size:14px;
+	color:#FFF;
+	min-height: 100%;
+}
+
+#conteiner {
+	width: 1000px;
+	margin: 0 auto;
+}
+.clear {			
+	clear:both;
+}
+
+#heder {
+	margin-top: 65px;
+	height: 180px;
+}
+
+#heder_top {
+	height: 125px;
+}
+#heder_top a {
+	color: red;
+	text-decoration:none;
+}
+#heder_botton {
+	height: 55px;
+	background: url(../img/strela.png);
+	margin: 0 53px 0 55px;
+}
+
+#heder_top img {
+	float:left;
+	margin: 60px 0 0 60px;
+}
+
+#heder_top p {
+	float:right;
+	margin: 106px 50px 0 0;
+}
+
+#search {
+	float:right;
+	margin: 10px 10px 0 0;
+	width: 230px;
+	height: 30px;
+	background: url(../img/poisk1.png) no-repeat bottom;
+}
+.search_text {
+	font-size:16px;
+	width: 190px;
+	padding: 2px 0 0 5px;
+	background:none;
+	border: none;
+	outline:none;
+}
+
+.go {
+	width: 28px;
+	padding: 6px 0 0 10px;
+	background:none;
+	border:none;
+	cursor:pointer;
+}
+
+#heder ul {
+	float:left;
+	margin: 10px 0 0 40px;
+	
+}
+
+#heder ul li {
+	float:left;
+	padding: 10px;
+}
+
+#heder ul li a {
+	font-size:14px;
+	font-family:Arial, Regular, sans-serif;
+	color:#FFF;
+	text-decoration:none;
+}
+
+#heder ul li a:hover {
+	font-size:14px;
+	font-family:Arial, Regular, sans-serif;
+	color:#FFF;
+	text-decoration: underline;
+}
+
+#content {
+	height: 327px;
+}
+
+#content .op {
+	padding-left: 65px;
+}
+
+#content .oz {
+	padding-right: 40px;
+}
+
+#content p {
+	width:  390px;
+	font-size:14px;
+	font-family:Arial, Bold;
+	line-height: 1.5;
+}
+
+#leftz {
+	float:left;
+	width:400px;
+	padding: 40px 0 0 65px;
+}
+
+#fotter {
+	height:300px;
+	margin: 50px 
+}
+#fotter p {
+	font-size:11px;
+	margin-left: 33px;
+	color: #686868;
+}
+
+#photo {
+	float:left;
+	width: 300px;
+	background:url(../img/fon3.png);
+	padding: 35px 0 19px 0;
+}
+
+#photo ul {
+	margin-left: 22px;
+}
+
+#photo ul li {
+	padding: 12px;
+	font-weight:700;
+}
+
+#fotter_botton p {
+	margin: 17px 0 0 120px;
+	color:#FFF;
+}

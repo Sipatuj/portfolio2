@@ -1,0 +1,393 @@
+@charset "utf-8";
+@import url("reset.css");
+
+
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background:url(img/%D0%B3%D1%80%D0%B0%D0%B4%D0%B8%D0%B5%D0%BD%D1%82.png);
+	margin: 0;
+	padding: 0;
+}
+
+.clear {			/*отміня обтіканіє */
+	clear:both;    /* шоб подвал не залазив на верх */
+}
+
+/* контейнер */
+#imgjquery {
+visibility : hidden;
+ alt: name;
+ width: 1347px;
+ position:absolute;
+ margin: -1050px 0 0 -825px;
+}
+
+.container {
+	float:left;
+	width: 1349px;
+	background:url(img/fon4.jpg);
+	height: 2200px;
+}
+
+
+
+
+/*levoe pole*/
+
+
+
+
+
+
+.sidebar1 {
+	float: left;
+	width: 250px;
+	height: 1643px;
+	margin: 400px 20px; 0 30px;
+}
+.sidebar1 #bloc_1 {
+	background:url(img/komanda.png);
+	height: 268px;
+	width: 250px;
+	margin-bottom: 5px;
+}
+.sidebar1 #bloc_1 a{
+	text-decoration:none;
+	color: #fff;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	margin: 50px 0 0 120px;
+	position:absolute;
+}
+.sidebar1 #bloc_1 a:hover{
+	text-decoration:underline;
+	color: #fff;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	margin: 50px 0 0 120px;
+}
+.sidebar1 #bloc_2 {
+	background:url(img/sled_match_2.png);
+	height: 150px;
+	width: 250px;
+	margin-bottom: 5px;
+}
+#schot_1 {
+	margin: 90px 0 0 75px;
+	position:absolute;
+}
+#schot_1 a{
+	margin: 35px 0 0 26px;
+	color:#000;
+	text-decoration:none;
+	font-size:15px;
+	font-family:Verdana, Geneva, sans-serif;
+	position:absolute;
+}
+#schot_1 a:hover{
+	margin: 35px 0 0 25px;
+	color:#000;
+	text-decoration:underline;
+	font-size:15px;
+	font-family:Verdana, Geneva, sans-serif;
+	position:absolute;
+}
+
+.sidebar1 #bloc_3 {
+	background:url(img/pred_match_2.png);
+	height: 150px;
+	width: 250px;
+	margin-bottom: 5px;
+}
+#schot_2 {
+	margin: 90px 0 0 80px;
+	position:absolute;
+}
+#schot_2 a{
+	margin: 35px 0 0 25px;
+	color:#000;
+	text-decoration:none;
+	font-size:15px;
+	font-family:Verdana, Geneva, sans-serif;
+	position:absolute;
+}
+#schot_2 a:hover{
+	margin: 35px 0 0 25px;
+	color:#000;
+	text-decoration:underline;
+	font-size:15px;
+	font-family:Verdana, Geneva, sans-serif;
+	position:absolute;
+}
+
+.sidebar1 #bloc_4 {
+	background: url(img/tabl_reit.png);
+	height: 750px;
+	width: 250px;
+	margin-bottom: 5px;
+}
+.sidebar1 #bloc_5 {
+	background: url(img/comand_A.png);
+	height: 300px;
+	width: 250px;
+	margin-bottom: 5px;
+}
+
+
+/*Centralnoe*/
+
+
+
+
+
+.content {
+	background:url(img/fon_kontnt.png);
+	float: left;
+	width: 729px;
+	height: 90%;
+	margin-left: 15px;
+	margin-top: -4px;
+}
+#contents {
+	margin-top: 10px;
+	height: 1760px;
+	width: 718px;
+	overflow-y:hidden;
+	overflow-y:scroll;
+	overflow-x:hidden;
+	background:#FFF;
+	margin-left: 7px;
+}
+
+.content .header_top{
+	float:left;
+	padding-left: 22px;
+	height: 140px;
+}
+#buttondiv{
+	height: 20px;
+	margin: 10px 0 30px 199px;
+	padding-left: -5px;
+}
+#buttondiv button{
+	color:#FFF;
+	text-decoration:none;
+	font-size:30px;
+	font-family:Verdana, Geneva, sans-serif;
+	background: url(img/fon_2.png);
+}
+
+.blog {
+	padding-left: 20px;
+	padding-bottom: 15px;
+	width: 680px;
+}
+.blog .foto img  {
+	float:left;
+}
+.blog a {
+	color:#000;
+	text-decoration:none;
+	font-weight:600;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+}
+.blog a:hover {
+	color:#000;
+	text-decoration:underline;
+	font-weight:600;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+}
+.blog .los h4{
+	padding-top: 20px;
+	padding-bottom: 14px;
+}
+.blog .blog-line {
+	color: #363636;
+	width: 600px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	font-weight:600;
+	line-height: 15px;
+}
+
+.blog{
+	color: #7f7f7f;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size: 12px;
+}
+.blog span {
+	padding-left: 20px;
+}
+
+#footer {
+	width: 718px;
+	height: 80px;
+	background:url(img/foter_fon.png);
+	margin-left: 10px;
+}
+#tabl a{
+	text-decoration:none;
+	color:#747474;
+}
+#tabl a:hover{
+	text-decoration:underline;
+	color:#747474;
+}
+#ok a {
+	background:url(img/ok.png);
+	display:block;
+	position:absolute;
+	height: 20px;
+	width: 22px;
+	margin-left: 95px;
+}
+#ok a:hover {
+	background: url(img/ok_2.png);
+	position:absolute;
+	height: 20px;
+	width: 22px;
+	margin-left: 95px;
+}
+
+#twiter a {
+	background:url(img/tviter.png);
+	display:block;
+	position:absolute;
+	height: 20px;
+	width: 22px;
+	margin-left: 72px;
+}
+#twiter a:hover {
+	background: url(img/tviter_2.png);
+	position:absolute;
+	height: 20px;
+	width: 22px;
+	margin: 2px 0 0 72px;
+}
+#fb a {
+	background:url(img/fb.png);
+	display:block;
+	position:absolute;
+	height: 20px;
+	width: 22px;
+	margin-left: 48px;
+}
+#fb a:hover {
+	background: url(img/fb_2.png);
+	position:absolute;
+	height: 20px;
+	width: 22px;
+	margin: 2px 0 0 48px;
+}
+#vk a {
+	background:url(img/vk_1.png);
+	display:block;
+	position:absolute;
+	height: 20px;
+	width: 20px;
+	margin-left: 25px;
+}
+#vk a:hover {
+	background: url(img/vk_2.png);
+	position:absolute;
+	height: 20px;
+	width: 20px;
+	margin: 2px 0 0 25px;
+}
+#LG a {
+	background:url(img/LG.png);
+	position:absolute;
+	height: 20px;
+	width: 22px;
+	margin-left: 2px;
+}
+#LG a:hover {
+	background: url(img/lg_2.png);
+	position:absolute;
+	height: 20px;
+	width: 22px;
+	margin: 2px 0 0 2px;
+}
+#footer  img {
+	float:left;
+}
+#footer .left img {
+	margin: -25px 0 0 -120px;
+	}
+#footer ul{
+	float:left;
+	height: 80px;
+	color:#747474;
+}
+.lis {
+	padding-left: 20px;
+}
+.van{
+	height: 80px;
+	width: 360px;
+	font-size: 12px;
+	float:left;
+	margin-top: 15px;
+}
+.vans{
+	margin-left: 70px;
+	height: 80px;
+	width: 200px;
+	font-size: 12px;
+	float:left;
+}
+.logo {
+	margin: 15px 0 0 -17px;
+	position:absolute;
+}
+
+
+
+/*pravoe*/
+
+
+
+
+
+
+.sidebar2 {
+	float: left;
+	width: 260px;
+	padding-left: 35px;
+	margin-top: 400px;
+}
+#rukovod {
+	background:url(img/rukovodstvo.png);
+	height: 414px;
+	width:249px;
+	margin-bottom:15px;
+}
+#bombardir {
+	background:url(img/bombardir.png);
+	width: 249px;
+	height:320px;
+	margin-bottom:10px;
+}
+#turnirs {
+	background:url(img/turnirs.png);
+	width:249px;
+	height:320px;
+	margin-bottom:10px;
+}
+
+/*Knopki*/
+
+.knopka_1 {
+	color: #000;
+}
+.knopka_2 {
+	color: #000;
+}
+.knopka_3 {
+	color: #0F0;
+}
+.knopka_4 {
+	color: #F00;
+}
